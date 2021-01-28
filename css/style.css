@@ -17,11 +17,15 @@
 }
 
 .search-btn {
-    margin: 28.21px 0 0 0;
+    margin: 28.21px 865px 0 0;
 }
 
 #search-btn {
     display: none;
+}
+
+.page-header-btn-wrp {
+    align-self: center;
 }
 
 button {
