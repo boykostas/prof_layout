@@ -9,6 +9,7 @@
 
 .page-header-wrp {
     display: flex;
+    /*align-items: center;*/
     background-color: #222222;
 }
 
@@ -30,5 +31,10 @@
 
 button {
     border: none;
-    background: transparent;
+    background: none;
+    margin-right: 33px;
+}
+
+.page-header-banner {
+    text-transform: uppercase;
 }
