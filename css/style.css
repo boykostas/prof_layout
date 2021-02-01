@@ -1,49 +1,39 @@
 body {
     font-family: lato, sans-serif;
 }
-
 .container {
     width: 1600px;
     margin: 0 auto;
 }
-
 .page-header {
     background-color: rgba(241, 228, 230, 1);
 }
-
 .page-header-wrp {
     display: flex;
     /*align-items: center;*/
     background-color: #222222;
 }
-
 .page-header-logo {
     padding: 18px 41px 19px 231px;
 }
-
 .search-btn {
     margin: 28.21px 865px 0 0;
 }
-
 #search-btn {
     display: none;
 }
-
 .page-header-btn-wrp {
     align-self: center;
 }
-
 button {
     border: none;
     background: none;
     margin-right: 33px;
 }
-
 .page-header-banner-wrp {
     display: flex;
     position: relative;
 }
-
 .page-header-banner {
     text-transform: uppercase;
     display: flex;
@@ -53,34 +43,45 @@ button {
     margin: 290px 0 0 64px;
     padding-left: 16px;
 }
-
 .page-header-banner-title {
-    font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
 }
-
 .page-header-banner-subtitle {
-    font-family: Lato;
     font-style: normal;
     font-weight: 700;
     font-size: 37px;
     line-height: 44px;
 }
-
 .page-header-banner-subtitle span {
     color: #F16D7F;
 }
-
 .categories {
     display: flex;
-
+    flex-wrap: wrap;
+    padding-left: 230px;
+    padding-top: 65px;
 }
-
 .categories-item {
     height: 260px;
     width: 360px;
-    background-color: orange;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+.categories-item-woman {
+    background-image: url(../img/img_opt/women.png);
+}
+.categories-item-man {
+    background-image: url(../img/img_opt/man.png);
+}
+.categories-item-kids {
+    background-image: url(../img/img_opt/kids.png);
+}
+.categories-item-bottom {
+    width: 1140px;
+    height: 180px;
+    margin-top: 30px;
+    background-image: url(../img/img_opt/acces.png);
 }
