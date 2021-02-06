@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: lato, sans-serif;
 }
 .container {
@@ -11,7 +13,6 @@ body {
 }
 .page-header-wrp {
     display: flex;
-    /*align-items: center;*/
     background-color: #222222;
 }
 .page-header-logo {
@@ -24,7 +25,8 @@ body {
     display: none;
 }
 .page-header-btn-wrp {
-    align-self: center;
+    align-self: center;/*
+    justify-content: center;*/
 }
 button {
     border: none;
@@ -40,7 +42,7 @@ button {
     display: flex;
     flex-direction: column;
     border-left: #F16D7F solid 12px;
-    height: 92px;
+    height: 102px;
     margin: 290px 0 0 64px;
     padding-left: 16px;
 }
@@ -313,5 +315,20 @@ button {
     text-align: left;
     color: #FBFBFB;
 }
+.page-footer-socials {
+    margin-left: 800px;
+}
+.page-footer-socials-item {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
 
 
